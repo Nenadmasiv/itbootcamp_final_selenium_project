@@ -52,11 +52,6 @@ public class MessagePopUpPage {
 				By.xpath("//div[contains(@class, 'succes')]")));
 	}
 
-//	public WebElement getWarningPopUpElement() {
-//		return this.driver.findElement(By.xpath(
-//				"//div[contains(@class, 'success')]"));
-//	}
-
 	public WebElement getMessageFromSuccessPopUp() {
 		return this.driver.findElement(By.xpath(
 				"//div[contains(@class, 'success')]"));
